@@ -28,4 +28,13 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: python -m compileall -b PyMerge.py
+        
+        
+      - name: add and commit
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Marck
+          author_email: marck@marck-devs.com
+          message: 'YCompile'
+          
 
