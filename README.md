@@ -7,4 +7,4 @@ To initialize it need a config file `pymerge` wich set the order of the concaten
 
 To set an file to concatenate you must use the keyword `import` and the file path into doble quotes(`"`): `import "index.js"`.
 
-To set the output file's name yuo can use `outFile` and the name between double quotes(`"`): `outFile "dist.js"`.
+To set the output file's name you can use `outFile` and the name between double quotes(`"`): `outFile "dist.js"`.
