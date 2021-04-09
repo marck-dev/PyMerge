@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Compile
 
 # Controls when the action will run. 
 on:
@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: python -m compileall -b PyMerge.py
+        run: python -m compileall -b PyMerge_Compiler.py PyMerge_optionFile.py
         
         
       - name: add and commit
@@ -35,6 +35,6 @@ jobs:
         with:
           author_name: Marck
           author_email: marck@marck-devs.com
-          message: 'YCompile'
+          message: 'Compile files'
           
 
